@@ -1,0 +1,32 @@
+<html>
+<head>
+    <title>Motor Beat Club</title>
+    <link rel="stylesheet" href="daftar.css">
+</head>
+<body>
+    <div align="center">
+        <p>Silahkan melakukan pendaftaran</p>
+        <button onclick="daftar()" style="width: auto;">Pendaftaran</button>
+    </div>
+
+    <div id="idAwal" class="awal">
+        <form class="awalbuka" method="POST">
+            <div class="kontener">
+                <span onclick="tutupForm()" class="tutup" title="tutupForm">&times;</span>
+                <label for="uname"><b>Nama :</b></label>
+                <br>
+                <input type="text" name="namaanda" id="namaanda"/>
+                <br>
+
+                <label for="telep"><b>No HP :</b></label>
+                <br>
+                <input type="tel" name="nomerhp" id="nomerhp"/>
+                <br>
+                
+                <input type="button" value="Daftar" id="submit" onclick="validasi()"/>
+            </div>
+        </form>
+    </div>
+        <script src="daftar.js"></script>
+</body>
+</html>

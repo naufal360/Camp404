@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>Validasi Wahana</title>
+    </head>
+<body>
+    <h1>Registrasi</h1>
+    <button id="tombol1" onclick="klik()">Info Pengisian</button>
+    <p id="info"></p>
+    <form name="form_daftar" onsubmit="validate()" method="post">
+        Nama : <input type="text" name="nama">
+        <br>
+        Email : <input type="text" name="email">
+        <br>
+        Alamat: <input type="text" name="alamat">
+        <br>
+        No.HP : <input type="text" name="nomorHP">
+        <br>
+        <button type="submit" id="tombol2">Register</button>           
+    </form>
+
+    <p id="hasil"></p>
+
+    <script src="validation.js"></script>
+</body>
+</html>

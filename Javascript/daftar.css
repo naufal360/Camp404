@@ -1,0 +1,22 @@
+.kontener {
+    position: relative;
+    padding: 16px;
+}
+
+.awal {
+    display: none;
+    padding-top: 20%;
+}
+
+.awalbuka {
+    margin: auto;
+    border: 3px solid;
+    width: 25%;
+}
+
+.tutup {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    cursor: pointer;
+}
